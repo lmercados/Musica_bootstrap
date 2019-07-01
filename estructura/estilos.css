@@ -1,0 +1,75 @@
+
+body
+{
+  background-color: RGB(126, 10, 22);
+
+}
+
+
+.logo-img {
+  width: 100px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.nav
+{
+  /*background-color: RGB(10, 68, 126);*/
+  background-color: white;
+
+}
+
+h3
+{
+text-align: center;
+}
+.menu
+{
+  background-color: #feb236;
+   text-align: center;
+}
+.btn:hover {
+  background-color:white;
+
+}
+.comentario
+{
+
+  font-size: 60px;
+
+}
+.icon
+{
+  height: 120px;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  background-color:white;
+}
+.cuerpo
+{
+  float: right;
+}
+.lista
+{
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  list-style: none;
+  height: 45px;
+  margin-left: -40px;
+
+
+}
+@media only screen and (max-width: 600px){
+  .icon
+  {
+   display: flex;
+   justify-content: center;
+  }
+  .centrar
+  {
+   display: flex;
+   justify-content: center;
+
+  }
+
+}
